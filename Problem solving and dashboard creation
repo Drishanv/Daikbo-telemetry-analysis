@@ -1,0 +1,51 @@
+# Project objective
+
+Use Tableau to visualize and investigate machine health across Daikibo's four factories to identify:
+
+-- Which location experienced the most machine downtime?
+
+-- Which machines were most affected in that location?
+
+Tools used- Tableau
+
+Step 1- Problem solving approach
+
+-- Prepare the Dataset
+
+-- Download the dataset file: daikibo-telemetry-data.json.zip
+
+-- Unzip the archive to extract the JSON file.
+
+-- Open Tableau and import the JSON file.
+
+Step 2- Create the 'Unhealthy' Metric
+
+Navigate to the Data pane and create a calculated field:
+
+Name: Unhealthy
+
+Step 3- Visualize Factory-Level Downtime
+
+-- Create a bar chart named: Down Time per Factory
+
+-- Plot total Unhealthy minutes per Factory
+
+Step 4- Visualize Machine-Type Downtime
+
+-- Create a new sheet with a second bar chart named: Down Time per Device Type
+
+-- Plot total Unhealthy minutes per Device Type
+
+Step 5- Build an Interactive Dashboard
+
+-- Combine both charts into a single Dashboard
+
+-- Set the first chart (Factory) as a filter:
+
+-- Selecting a factory will update the second chart to show only downtime for devices in that location
+
+Step 6- Derive Insights & Submit
+
+-- Click on the factory with the highest downtime in the first chart
+
+-- Take a screenshot of the updated Dashboard
